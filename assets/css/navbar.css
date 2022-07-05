@@ -1,0 +1,29 @@
+.container-fluid {
+  flex-direction: row-reverse;
+  margin-right: 0;
+  width: auto;
+}
+.navbar-brand {
+  color: beige;
+}
+.nav-link {
+  color: beige;
+  margin-left: 2rem;
+}
+.nav-link i {
+  color: beige;
+  margin-right: 0.5rem;
+}
+
+.principal {
+  background-color: cadetblue;
+  height: 50vh;
+}
+
+/*MEDIA QUERIES*/
+
+@media only screen and (max-width: 992px) {
+  .container-fluid {
+    width: 100%;
+  }
+}
