@@ -1,10 +1,24 @@
 .container-fluid {
   flex-direction: row-reverse;
   margin-right: 0;
-  width: auto;
+  width: 100%;
+}
+.ap-img {
+  height: 8rem;
+  object-fit: contain;
+  width: 8rem;
+}
+
+.login-container {
+  display: flex;
+  align-items: center;
 }
 .navbar-brand {
   color: beige;
+}
+
+.navbar-toggler {
+  background-color: rgba(0, 255, 221, 0.089);
 }
 .nav-link {
   color: beige;
@@ -22,8 +36,23 @@
 
 /*MEDIA QUERIES*/
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 553px) {
   .container-fluid {
+    flex-direction: column;
+  }
+
+  .navbar-toggler {
+    margin-top: 1rem;
     width: 100%;
+  }
+
+  .login-container {
+    justify-content: space-between;
+    width: 100%;
+  }
+  .ap-img {
+    height: 11rem;
+    object-fit: contain;
+    width: 11rem;
   }
 }
