@@ -1,0 +1,12 @@
+.banner img {
+  height: 20rem;
+  object-fit: cover;
+  width: 100%;
+}
+.img-avatar img {
+  border-radius: 100%;
+  height: 20vw;
+  width: 20vw;
+  min-width: 15rem;
+  min-height: 15rem;
+}

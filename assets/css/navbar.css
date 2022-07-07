@@ -1,12 +1,22 @@
+.navbar {
+  --bs-navbar-brand-hover-color: rgba(82, 140, 118, 0.9);
+  --bs-navbar-hover-color: rgba(140 82 82 / 90%);
+}
+
 .container-fluid {
   flex-direction: row-reverse;
   margin-right: 0;
   width: 100%;
+  transition: 1s;
 }
 .ap-img {
-  height: 8rem;
   object-fit: contain;
-  width: 8rem;
+  width: 15rem;
+  transition: 1s;
+}
+
+.ap-img:hover {
+  transform: scale(1.05, 1.05);
 }
 
 .login-container {
@@ -15,6 +25,13 @@
 }
 .navbar-brand {
   color: beige;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2em;
+  margin: auto 1rem;
+  transition: 1s;
+}
+.navbar-brand:hover {
+  transform: scale(1.05, 1.05);
 }
 
 .navbar-toggler {
@@ -23,10 +40,14 @@
 .nav-link {
   color: beige;
   margin-left: 2rem;
+  transition: 1s;
 }
 .nav-link i {
   color: beige;
   margin-right: 0.5rem;
+}
+.nav-item:hover {
+  transform: scale(1.05, 1.05);
 }
 
 .principal {
@@ -36,7 +57,7 @@
 
 /*MEDIA QUERIES*/
 
-@media only screen and (max-width: 553px) {
+@media only screen and (max-width: 770px) {
   .container-fluid {
     flex-direction: column;
   }
