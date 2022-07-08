@@ -1,5 +1,10 @@
 .principal {
   background-color: rgba(177, 177, 177, 0.39);
+  padding-bottom: 2rem;
+}
+
+.sobremi-flex {
+  display: flex;
 }
 
 .banner img {
@@ -8,14 +13,15 @@
   width: 100%;
 }
 
+.img-avatar {
+  height: 25vh;
+}
 .img-avatar img {
   position: relative;
   border-radius: 100%;
   height: 20rem;
   width: 20rem;
   margin-left: 1rem;
-  min-width: 15rem;
-  min-height: 15rem;
   bottom: 8rem;
 }
 
@@ -30,10 +36,8 @@
 }
 
 .sobremi {
-  padding-left: 25rem;
-  padding-right: 3rem;
-  position: relative;
-  bottom: 21rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
 }
 
 .sobremi h1 {
@@ -47,4 +51,44 @@
   color: rgb(14, 14, 14);
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.2em;
+  margin-right: 2rem;
+}
+
+/*MEDIA QUERIES*/
+
+@media only screen and (max-width: 770px) {
+  .img-avatar img {
+    margin: 0;
+  }
+  .sobremi-flex {
+    flex-direction: column;
+  }
+  .img-avatar {
+    margin: 0 auto;
+  }
+  .sobremi {
+    margin-top: 8rem;
+  }
+  .titulo-avatar {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 422px) {
+  .img-avatar img {
+    height: 10rem;
+    width: 10rem;
+  }
+
+  .sobremi {
+    margin-top: 2rem;
+  }
+
+  .img-avatar img {
+    height: 15rem;
+    width: 15rem;
+    margin: 0;
+  }
 }

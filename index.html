@@ -14,7 +14,8 @@
       crossorigin="anonymous"
     />
     <link href="./assets/css/navbar.css" rel="stylesheet" />
-    <link href="./assets/css/principal.css  " rel="stylesheet" />
+    <link href="./assets/css/principal.css" rel="stylesheet" />
+    <link href="./assets/css/experiencia.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -87,6 +88,7 @@
         </div>
       </nav>
     </section>
+    <section class="banner-section"></section>
     <section class="principal">
       <div class="banner">
         <img
@@ -94,35 +96,84 @@
           alt="banner"
         />
       </div>
-      <div class="img-avatar">
-        <img
-          src="https://github.com/nnfromthewindow/portafolio/blob/main/assets/img/avatar.jpg?raw=true"
-          alt=""
-        />
-        <h3 class="titulo-avatar">Nicolás Nuccelli</h3>
-      </div>
-      <div class="sobremi">
-        <h1>Sobre mi</h1>
-        <p>
-          Desde muy chico siempre estuve en contacto con las computadoras desde
-          DOS y luego Windows 3.1. Con el tiempo fui adquiriendo conocimientos
-          en varios software de diseño con los cuales realizo trabajos de
-          renders para una arquitecta, (AutoCad, SketchUp, Fusion 360, Adobe
-          Suite) y producción musical (Ableton Live) debido a que soy musico.
-          Tengo conocimientos en Java trabajando proyectos Maven, MySQL y Front
-          End (HTML,CSS, JavaScript y cursando React) además de manejar como
-          segundo idioma el Ingles.<br />
-          Forme parte del Proyecto ONE dictado por Alura Latam + Oracle ,
-          realizando de manera satisfactoria todas las rutas de aprendizaje. Hoy
-          en día me encuentro cursando el curso YoProgramo 3era edicion dictado
-          por el INTI y el Ministerio de Desarrollo Productivo de la Nacion. Soy
-          una persona que le gusta aprender cosas nuevas sobre todo tecnologías,
-          que sabe trabajar en equipo y a su vez me considero emprendedor.
-        </p>
+      <div class="sobremi-flex">
+        <div class="img-avatar">
+          <img
+            src="https://github.com/nnfromthewindow/portafolio/blob/main/assets/img/avatar.jpg?raw=true"
+            alt=""
+          />
+          <h3 class="titulo-avatar">Nicolás Nuccelli</h3>
+        </div>
+        <div class="sobremi">
+          <h1>Sobre mi</h1>
+          <p>
+            Desde muy chico siempre estuve en contacto con las computadoras
+            desde DOS y luego Windows 3.1. Con el tiempo fui adquiriendo
+            conocimientos en varios software de diseño con los cuales realizo
+            trabajos de renders para una arquitecta, (AutoCad, SketchUp, Fusion
+            360, Adobe Suite) y producción musical (Ableton Live) debido a que
+            soy musico. Tengo conocimientos en Java trabajando proyectos Maven,
+            MySQL y Front End (HTML,CSS, JavaScript y cursando React) además de
+            manejar como segundo idioma el Ingles.<br />
+            Forme parte del Proyecto ONE dictado por Alura Latam + Oracle ,
+            realizando de manera satisfactoria todas las rutas de aprendizaje.
+            Hoy en día me encuentro cursando el curso YoProgramo 3era edicion
+            dictado por el INTI y el Ministerio de Desarrollo Productivo de la
+            Nacion. Soy una persona que le gusta aprender cosas nuevas sobre
+            todo tecnologías, que sabe trabajar en equipo y a su vez me
+            considero emprendedor.
+          </p>
+        </div>
       </div>
     </section>
     <section class="experiencia">
       <h1 class="experiencia-titulo">Experiencia</h1>
+      <div class="experiencia-container">
+        <div class="card mb-3" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="https://scontent.fcsz4-1.fna.fbcdn.net/v/t31.18172-8/464260_406442139370606_1754103741_o.jpg?_nc_cat=110&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeExN_wSmsIkzsuIYhVj3Ee2k16m_G_HIAmTXqb8b8cgCa_tpUNynnbsNV7x9UrPLAPA71umsvinMCpg5TH-eOdI&_nc_ohc=-weYmaSvOX8AX8yKGof&tn=1_FN8bkE78D0Ov4Z&_nc_ht=scontent.fcsz4-1.fna&oh=00_AT_aGF7TBm2zrf3L6evc8PxfsRSjjJ3toV5dZfbbEPpSLA&oe=62EBE7FC"
+                class="img-fluid rounded-start"
+                alt="Hostal del Arroyo"
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Hostal del Arroyo - Complejo turistico
+                </h5>
+                <p class="card-text">Encargado en la administracion</p>
+                <p class="card-text">
+                  <small class="text-muted">2010 - actualidad</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="http://www.noticiasradioreflejos.com.ar/2021/wp-content/uploads/2022/01/Casino-Sierra-750x376.jpg"
+                class="img-fluid rounded-start"
+                alt="Casino Provincial Sierra de la Ventana"
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Casino Provincial Sierra de la Ventana
+                </h5>
+                <p class="card-text">Croupier</p>
+                <p class="card-text">
+                  <small class="text-muted">2007 - actualidad</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <section class="educacion"></section>
     <section class="skills"></section>

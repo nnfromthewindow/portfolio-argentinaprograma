@@ -8,7 +8,6 @@
   margin-right: 0;
   width: 100%;
   transition: 1s;
-  padding-right: 2rem;
 }
 .ap-img {
   object-fit: contain;
@@ -51,6 +50,10 @@
   transform: scale(1.05, 1.05);
 }
 
+.nav-social-link {
+  text-align: center;
+}
+
 /*MEDIA QUERIES*/
 
 @media only screen and (max-width: 770px) {
@@ -71,5 +74,10 @@
     height: 11rem;
     object-fit: contain;
     width: 11rem;
+  }
+}
+@media only screen and (max-width: 422px) {
+  .navbar-brand {
+    font-size: 1.2em;
   }
 }
