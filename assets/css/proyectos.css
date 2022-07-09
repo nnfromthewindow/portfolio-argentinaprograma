@@ -2,3 +2,27 @@
   background-color: rgba(177, 177, 177, 0.39);
   padding: 2rem;
 }
+
+.carousel-caption h5 {
+  color: #e7352f;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.carousel-caption h6 {
+  color: #a7e72f;
+  font-size: 1.5rem;
+}
+.carousel-caption p {
+  color: #298bcc;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+.carousel-caption h5,
+.carousel-caption h6,
+.carousel-caption p {
+  background-color: #000000ea;
+  font-family: "Josefin Sans", sans-serif;
+  margin: 0 auto;
+  width: fit-content;
+}
