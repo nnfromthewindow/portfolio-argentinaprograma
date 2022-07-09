@@ -1,0 +1,20 @@
+.skills {
+  background-color: rgb(162, 170, 159);
+  padding: 2rem;
+}
+
+.skills-container {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-around;
+}
+
+.card-img-top {
+  height: 8rem;
+  margin: 0 auto;
+  object-fit: contain;
+  padding: 1rem;
+  width: 8rem;
+}
