@@ -67,7 +67,7 @@
     margin: 0 auto;
   }
   .sobremi {
-    margin-top: 8rem;
+    margin-top: 1rem;
   }
   .titulo-avatar {
     width: 100%;
@@ -77,18 +77,30 @@
 }
 
 @media only screen and (max-width: 422px) {
-  .img-avatar img {
-    height: 10rem;
-    width: 10rem;
+  .img-avatar {
+    margin-bottom: -4rem;
   }
 
   .sobremi {
-    margin-top: 2rem;
+    margin: 0 auto;
+    margin-top: 0rem;
   }
 
   .img-avatar img {
     height: 15rem;
     width: 15rem;
     margin: 0;
+  }
+
+  .sobremi h1 {
+    text-align: center;
+    width: 100%;
+  }
+
+  .sobremi p {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: center;
+    width: 100%;
   }
 }
