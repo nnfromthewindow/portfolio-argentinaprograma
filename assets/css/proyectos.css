@@ -2,15 +2,19 @@
   background-color: rgba(177, 177, 177, 0.39);
   padding: 2rem;
 }
-
+.proyectos-container {
+  margin-top: 2rem;
+  padding: 0 10%;
+}
 .carousel-caption h5 {
   color: #e7352f;
   font-size: 2rem;
   font-weight: bold;
 }
 .carousel-caption h6 {
-  color: #a7e72f;
+  color: #e7972f;
   font-size: 1.5rem;
+  font-weight: bold;
 }
 .carousel-caption p {
   color: #298bcc;
@@ -21,8 +25,38 @@
 .carousel-caption h5,
 .carousel-caption h6,
 .carousel-caption p {
-  background-color: #000000ea;
+  background-color: rgba(240, 248, 255, 0.76);
   font-family: "Josefin Sans", sans-serif;
+  text-shadow: 1px 1px 2px black;
   margin: 0 auto;
   width: fit-content;
+}
+
+.w-100 {
+  width: 40rem;
+  object-fit: cover;
+  border-radius: 1rem;
+  height: 30rem;
+}
+
+.d-none {
+  display: block !important;
+}
+.carousel-indicators [data-bs-target] {
+  background-color: #a7e72f;
+  border: 1px solid rgba(0, 0, 0, 0.767);
+  border-radius: 30%;
+}
+.carousel-indicators .active {
+  background-color: #e7352f;
+  border-radius: 30%;
+}
+
+/*MEDIA QUERIES*/
+
+@media only screen and (max-width: 770px) {
+  .proyectos-container {
+    margin-top: 2rem;
+    padding: 0;
+  }
 }

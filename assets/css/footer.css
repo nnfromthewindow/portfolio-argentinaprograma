@@ -1,0 +1,12 @@
+.footer {
+  background-color: #212529;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.dev {
+  color: rgba(240, 248, 255, 0.527);
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.2rem;
+  margin: 0;
+}
