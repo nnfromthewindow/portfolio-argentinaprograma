@@ -66,9 +66,7 @@
   .img-avatar {
     margin: 0 auto;
   }
-  .sobremi {
-    margin-top: 1rem;
-  }
+
   .titulo-avatar {
     width: 100%;
     margin: auto;
@@ -83,7 +81,6 @@
 
   .sobremi {
     margin: 0 auto;
-    margin-top: 0rem;
   }
 
   .img-avatar img {
